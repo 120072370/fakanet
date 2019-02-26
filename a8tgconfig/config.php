@@ -5,9 +5,9 @@ define('DBSERVER','localhost');
 //数据库端口
 define('DBPORT','3306');
 //数据库访问用户
-define('DBUSER','root');
+define('DBUSER','ojbkmysql');
 //数据库访问用户密码
-define('DBPASS','123123');
+define('DBPASS','ojbkgzl123');
 // 数据库名称
 define('DBNAME','wfk_db');
 //数据库表前缀
