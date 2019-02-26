@@ -1,0 +1,17 @@
+.ad_webcontent {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.ad_webcontent  img{
+   width:160px;
+}
+
+.ad_mobilecontent {
+    width: 100%;
+    margin-bottom:10px;
+}
+
+.ad_mobilecontent  img{
+   width:24%;
+}

@@ -1,0 +1,224 @@
+*{padding: 0;margin: 0;text-decoration: none;}
+img{border:none;}
+i{font-style: normal;}
+body{background: #f4f4f4;font-family: "Microsoft Yahei",Arial,sans-serif;color: #666;}
+::selection {background:#f4f4f4;}
+::-moz-selection {background:#f4f4f4;}
+::-webkit-selection {background:#f4f4f4;}
+/*错误信息统一设置*/
+.error-msg{color: #F44336 !important;font-size: 13px !important;}
+/*不显示*/
+#kfk-main #buy-main .cate-list .hide{display: none;display: none !important;}
+#kfk-main #buy-main .product-list .hide{display: none;display: none !important;}
+/*修复ie7的一个bug*/
+.ie7-bug{position: relative;}
+/*不允许选择文字*/
+.no-select{-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;}
+#kfk-header{width: 100%;background: #fff;padding: 10px 0px;position: relative;border:none;min-width: 1000px;}
+#kfk-header>#logo{border:none;width: 400px;}
+#kfk-header>#logo>img{left: 30px;margin-left: 30px;margin-top: 5px;cursor: pointer;}
+#kfk-header>#logo>i{position: absolute;color: #888;font-size: 14px;top: 26px;left: 220px;}
+/*订单查询*/
+#kfk-header>#query{position: absolute;right: 30px;top: 21px;}
+#kfk-header>#query>a{display: block;padding: 4px 30px;font-size: 14px;color: #666;border:1px solid #666;border-radius: 2px;cursor: pointer;background: #FFF;letter-spacing: 1px;}
+#kfk-header>#query>a:hover{border:1px solid #03a9f4;background: #03a9f4;color: #FFF;}
+/*不知道怎么买?*/
+#kfk-header #no-used{position: absolute;right: 220px;font-size: 14px;color: #666;letter-spacing: 1px;top: 27px;}
+#no-used a{color: #666;}
+#no-used a:hover{color: #03a9f4;}
+/*支付整块*/
+#kfk-main{width: 95%;margin: 0px auto;margin-top: 15px;font-size: 14px;min-width: 1000px;}
+/*商户信息主体*/
+#kfk-main .merchant{position: relative;background: #f6c982;color: #fff;padding: 0px 15px;}
+/*商户信息*/
+#kfk-main #merchant-contact{width: 100%;padding: 10px 0px;padding-bottom: 5px;}
+#kfk-main #merchant-contact .contact-field{font-weight: bold;letter-spacing: 1px;}
+#kfk-main #merchant-contact .contact-value{letter-spacing: 1px;color: #fff;border-bottom: 1px solid #f4f4f4;padding-bottom: 2px;}
+/*商户公告*/
+#kfk-main #merchant-notice{width: 100%;padding: 10px 0px;letter-spacing: 1px;font-size: 14px;}
+#kfk-main #merchant-notice .field{font-weight: bold;}
+/*商户名称*/
+#kfk-main #merchant-name{padding-top: 10px;padding-bottom: 5px;}
+#kfk-main #merchant-name .name-field{font-weight: bold;letter-spacing: 1px;}
+#kfk-main #merchant-name .name-value{font-size: 14px;text-align: left;}
+/*商户按钮 联系QQ和进入官网*/
+#kfk-main #merchant-btns{position: absolute;top: 15px;right: 15px;}
+#kfk-main #merchant-btns .site{right: 130px;margin-left: 5px;}
+#kfk-main #merchant-btns .go-contact{letter-spacing: 1px;padding: 6px 10px;font-size: 14px;color: #fff;cursor: pointer;}
+/*字段*/
+.field{width: 85px;display: inline-block;}
+#kfk-main #buy-main{position: relative;background: #fff;margin-top: 5px;padding-bottom: 12px;}
+/*选择分类*/
+#kfk-main #buy-main .cate{padding: 7px 0px;background: #FFF;}
+#kfk-main #buy-main .cate-header{color: #666;margin-left: 15px;font-weight: bold;overflow: hidden;border-bottom: 1px solid #eee;display: inline;padding-bottom: 4px;letter-spacing: 1px;font-size: 14px;}
+#kfk-main #buy-main .cate-list{overflow: hidden;padding-bottom: 10px;text-align: center;width: 85%;margin: 0px auto;}
+#kfk-main #buy-main .cate-list a{padding: 8px 20px;letter-spacing: 1px;border:1px solid #ddd;font-size: 14px;color: #666;cursor: pointer;margin: 0px 10px;text-align: center;display: inline-block;margin-top: 8px;border-radius: 20px;}
+#kfk-main #buy-main .cate-list .active{background: #03A9F4;color: #FFF;border:1px solid #03A9F4}
+#kfk-main #buy-main .cate-list .active .min-explain{color: #FFF;}
+#kfk-main #buy-main .cate-list .min-explain{color: #888;font-size: 12px;margin-left: 5px;letter-spacing: 2px;}
+/*选择商品*/
+#kfk-main #buy-main .product{background: #FFF;padding-bottom: 7px}
+#kfk-main #buy-main .product-header{color: #666;margin-left: 15px;font-weight: bold;overflow: hidden;border-bottom: 1px solid #eee;display: inline;padding-bottom: 4px;letter-spacing: 1px;font-size: 14px;}
+#kfk-main #buy-main .product-list{overflow: hidden;padding-bottom: 5px;text-align: center;width: 85%;margin: 0px auto;}
+#kfk-main #buy-main .product-list a{padding: 8px 20px;letter-spacing: 1px;border:1px solid #ddd;font-size: 14px;color: #666;cursor: pointer;margin:0px 10px;text-align: center;display: inline-block;margin-top: 8px;border-radius: 20px;}
+#kfk-main #buy-main .product-list .min-explain{color: #888;font-size: 12px;margin-left: 5px;letter-spacing: 2px;}
+#kfk-main #buy-main .product-list .active{border:1px solid #03A9F4;background: #03A9F4;color: #FFF;}
+#kfk-main #buy-main .product-list .active .min-explain{color: #FFF;}
+/*商品描述*/
+#kfk-main #buy-main .product-desc{padding: 5px 15px;display: none;}
+#kfk-main #buy-main .product-desc i{background: url('favourable-img.png') no-repeat;display: inline-block;height: 20px;padding-left: 20px;margin-top: 10px;font-weight: bold;color: #777;width: 5px;}
+#kfk-main #buy-main .product-desc span{position: relative;top: 2.5px;padding-left: 7px;color: #666;letter-spacing: 1px;line-height: 22px;font-size: 13px;}
+/*购买数量*/
+#kfk-main #buy-main .inventory{background: #FFF;margin-top:10px;padding: 5px 0px;}
+#kfk-main #buy-main .inventory .inventory-header{color: #666;margin-left: 15px;font-weight: bold;overflow: hidden;border-bottom: 1px solid #eee;display: inline;padding-bottom: 4px;letter-spacing: 1px;font-size: 14px;}
+#kfk-main #buy-main .inventory .inventory-header span{font-size: 12px;letter-spacing: 1px;margin-left: 5px;font-weight: 400;color: #00BCD4;}
+#kfk-main #buy-main .inventory-list{overflow: hidden;text-align: center;position: relative;margin: 8px 0px;}
+#kfk-main #buy-main .inventory-list a{padding: 8px 20px;letter-spacing: 1px;border:1px solid #ddd;font-size: 14px;color: #666;cursor: pointer;margin-left: 10px;text-align: center;display: inline-block;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;border-radius: 20px;margin-bottom: 2px;}
+#kfk-main #buy-main .inventory-list .active{border:1px solid #03A9F4;background: #03A9F4;color: #FFF;}
+/*限购信息*/
+#kfk-main #buy-main .product-limit{padding: 5px 15px;display: none;}
+#kfk-main #buy-main .product-limit .icon{background: url('favourable-img.png') -32px no-repeat;display: inline-block;height: 20px;padding-left: 20px;font-weight: bold;color: #777;width: 5px;}
+#kfk-main #buy-main .product-limit span{position: relative;top: 1px;color: #666;letter-spacing: 1px;line-height: 22px;padding-left: 2px;}
+#kfk-main #buy-main .product-limit .field{width: initial;margin-right:20px;border-bottom: 1px solid #f8f8f8;letter-spacing: 1px;min-width: 110px;text-align: center;font-size: 13px;}
+/*折扣信息*/
+#kfk-main #buy-main .product-discount{margin-top: 0px;border-top: 0px solid #f8f8f8;padding: 4px 15px;display: none;}
+#kfk-main #buy-main .product-discount .icon{background: url('favourable-img.png') -60px no-repeat;display: inline-block;height: 20px;padding-left: 20px;font-weight: bold;color: #777;width: 5px;position: relative;left: -1px;}
+#kfk-main #buy-main .product-discount .field{width: initial;margin-right:25px;border-bottom: 1px solid #f8f8f8;letter-spacing: 1px;display: inline;line-height: 25px;font-size: 13px;padding-bottom: 3px;}
+#kfk-main #buy-main .product-discount span{position: relative;top: -1px;color: #666;letter-spacing: 1px;line-height: 22px;padding-left: 15px;}
+/*购买数量编辑框*/
+#text-quantity{margin-left: 10px;padding: 8px 20px;border:1px solid #ddd;position: relative;top: 0px;outline: none;color: #888;letter-spacing: 1px;font-size: 13px;text-align: center;font-family:"Microsoft Yahei",Simsun,Arial,Helvetica,sans-serif;border-radius: 20px; }
+.text-quantity-msg{margin-left: 15px;letter-spacing: 1px;display: none;position: absolute;top: 17px;}
+/*请输入联系方式*/
+#kfk-main #buy-main .obligate{padding: 7px 0px;background: #FFF;margin-top: 8px;padding-bottom: 6px;}
+#kfk-main #buy-main .obligate-list{padding-top: 15px;text-align: left;margin-left: 20px;}
+#kfk-main #buy-main .obligate .obligate-header{color: #666;margin-left: 15px;font-weight: bold;overflow: hidden;border-bottom: 1px solid #eee;display: inline;padding-bottom: 4px;letter-spacing: 1px;font-size: 14px;}
+#kfk-main #buy-main #text-obligate{outline: none;border: 1px solid #ddd;padding: 8px 20px;text-align: center;font-size: 13px;font-family:"Microsoft Yahei",Simsun,Arial,Helvetica,sans-serif;color: #888;min-width: 170px;border-radius: 3px;}
+#kfk-main #buy-main #text-obligate2{outline: none;border: 1px solid #ddd;padding: 8px 20px;text-align: center;font-size: 13px;font-family:"Microsoft Yahei",Simsun,Arial,Helvetica,sans-serif;color: #888;min-width: 170px;border-radius: 3px;}
+#kfk-main #buy-main .obligate-list span{font-size: 13px;margin-left: 10px;color: #9e9e9e;}
+.text-obligate-msg{margin-left: 15px;display: none;}
+ /*取卡密码*/
+#kfk-main #buy-main .card-password{padding: 7px 0px;background: #FFF;padding-bottom: 6px;display: none;}
+#kfk-main #buy-main .card-password-list{padding-top: 15px;text-align: left;margin-left: 20px;}
+#kfk-main #buy-main .card-password .card-password-header{color: #666;margin-left: 15px;font-weight: bold;overflow: hidden;border-bottom: 1px solid #eee;display: inline;padding-bottom: 4px;letter-spacing: 1px;font-size: 13px;}
+#kfk-main #buy-main #text-card-password{outline: none;border: 1px solid #ddd;padding: 8px 20px;text-align: center;font-size: 13px;font-family:"Microsoft Yahei",Simsun,Arial,Helvetica,sans-serif;color: #888;min-width: 170px;border-radius: 3px;}
+#kfk-main #buy-main #text-card-password2{outline: none;border: 1px solid #ddd;padding: 8px 20px;text-align: center;font-size: 13px;font-family:"Microsoft Yahei",Simsun,Arial,Helvetica,sans-serif;color: #888;min-width: 170px;border-radius: 3px;}
+
+#kfk-main #buy-main .card-password-list span{font-size: 13px;margin-left: 10px;color: #9e9e9e;}
+.text-card-password-msg{margin-left: 15px;display: none;}
+ /*优惠卷*/
+#kfk-main #buy-main .favourable{padding: 7px 0px;background: #FFF;padding-bottom: 6px;display: none;}
+#kfk-main #buy-main .favourable .favourable-header{color: #666;margin-left: 15px;font-weight: bold;overflow: hidden;border-bottom: 1px solid #eee;display: inline;padding-bottom: 4px;letter-spacing: 1px;font-size: 13px;border-radius: 3px;}
+#kfk-main #buy-main .favourable-list{padding-top: 15px;text-align: left;margin-left: 20px;}
+#kfk-main #buy-main #text-favourable{outline: none;border: 1px solid #ddd;padding: 8px 20px;text-align: center;font-size: 13px;font-family:"Microsoft Yahei",Simsun,Arial,Helvetica,sans-serif;color: #888;min-width: 170px;}
+#kfk-main #buy-main .favourable-list span{font-size: 13px;margin-left: 10px;color: #9e9e9e;}
+.text-favourable-msg{margin-left: 15px;display: none;}
+/*请选择付款方式*/
+#kfk-main #buy-main .payment{padding-top: 7px;background: #FFF;margin-top: 10px;}
+#kfk-main #buy-main .payment .payment-header{color: #666;margin-left: 15px;font-weight: bold;overflow: hidden;border-bottom: 1px solid #eee;display: inline;padding-bottom: 4px;letter-spacing: 1px;font-size: 14px;}
+#kfk-main #buy-main .payment-list{padding-top: 15px;text-align: left;margin-left: 20px;vertical-align: middle;padding-bottom: 7px;}
+#kfk-main #buy-main .payment-list div{border: 1px solid #ddd;font-size: 14px;padding: 0px 20px;cursor: pointer;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;padding-left: 55px;color: #888;font-weight: bold;font-size: 13px;margin-right: 8px;height:45px;line-height: 45px;vertical-align: middle;display:inline-block;*display:inline;*zoom:1;position: relative;}
+#kfk-main #buy-main .payment-list i{display: inline-block;height:30px;width: 40px;position: absolute;left: 10px;top: 7px;display:inline-block;*display:inline;*zoom:1;}
+/*支付宝*/
+#kfk-main #buy-main .payment-list .alipay{background: url("pay-list.png") -35px no-repeat;width: 38px;}
+#kfk-main #buy-main .payment-list .wxpay{background: url("pay-list.png") 2px no-repeat;}
+#kfk-main #buy-main .payment-list .qqpay{background: url("pay-list.png") -70px 0px no-repeat;width: 34px;height: 31px;}
+#kfk-main #buy-main .payment-list .tenpay{background: url("pay-list.png") -100px no-repeat;width: 95px;margin-left: 5px;}
+#kfk-main #buy-main .payment-list .onlinepay{background: url("pay-list.png") -223px no-repeat;width: 95px;margin-left: 5px;width: 125px;margin-left: 0px;}
+#kfk-main #buy-main .payment-list .bank3{background: url("pay-list.png") -223px no-repeat;width: 54px !important ;margin-left: 5px;width: 125px;margin-left: 0px;}
+#kfk-main #buy-main .payment-list .div-tenpay{width: 50px;}
+#kfk-main #buy-main .payment-list .div-onlinepay{width: 73px;}
+#kfk-main #buy-main .payment-list .active{border: 1px solid #7cbff5;}
+/*底部信息*/
+#kfk-foot{padding: 10px 0px;background: #FFF;position: fixed;bottom: 0;display: block;width: 100%;border-top: 4px solid #eee;opacity: 0.85;filter:Alpha(opacity=60);background:#fff;-moz-opacity:0.85;-khtml-opacity: 0.85;min-width: 1000px;}
+#kfk-foot .buy-product-info{margin-left: 4%;width: 50%;float: left;}
+#kfk-foot .buy-product-info .name .value{position:relative;left: -1px;}
+#kfk-foot .buy-product-info .field{font-weight: bold;font-size: 15px;color: #444;letter-spacing: 1px;}
+#kfk-foot .buy-product-info .value{font-size: 14px;color: #444;position: relative;}
+#kfk-foot .buy-product-info>div{padding: 2px 0px;}
+#kfk-foot .pay{margin-right: 20px;}
+#kfk-foot .pay-info{float: right;margin-right: 125px;}
+#kfk-foot .pay .field{width: 70px;color: #444;font-weight: bold;font-size: 15px;margin-top: 18px;}
+#kfk-foot .pay .money{color: #444;letter-spacing: 1px;min-width: 50px;display: inline-block;}
+#kfk-foot .pay .field-last{color: #444;font-weight: bold;margin-left: 2px;font-size: 15px;}
+/*开始支付*/
+#kfk-pay .btn-pay{font-size: 13px;padding: 6px 15px;margin-left: 20px;background: #03a9f4;border: none;color: #FFF;margin-top: 12.5px;cursor: pointer;margin-right: 1.5%;display: block;letter-spacing: 1px;text-align: center;word-wrap: normal;word-break: initial;font-weight: bold;width: 80px;font-size: 15px;border-radius: 20px;}
+#kfk-pay{position: fixed;right: 20px;z-index: 20;bottom: 16px;}
+/*底部占位*/
+#seize{display: block;height: 90px;}
+/*银行列表*/
+.bank{position: relative;display: none;}
+.bank-header{font-size: 14px;font-weight: bold;margin-left: 15px;color: #777;margin-top: 10px;}
+.bank-list{margin-left: 20px;padding-top: 15px;}
+.bank-list i{display: inline-block;*display:inline;*zoom:1;padding: 6.5px 25px;font-size: 13px;letter-spacing: 1px;text-align: center;margin-bottom: 7px;margin-right: 5px;border: 1px solid #ddd;color: #777;cursor: pointer;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;}
+/*银行搜索*/
+.bank .text-bank-query{border: none;border-bottom: 1px solid #ccc;text-align: center;padding: 5px 10px;width: 100px;position: absolute;outline: none;top: -5px;right:15px;font-size: 13px;letter-spacing: 1px;color: #666;font-family:"Microsoft Yahei",Simsun,Arial,Helvetica,sans-serif;}
+.bank-list .active{border: 1px solid #7cbff5;}
+.bank-list .hide{display: none;}
+/*总价的优惠卷折扣信息*/
+.favourable-msg{font-size: 12px;letter-spacing: 1px;padding-left: 5px;color: #2196F3;display: none;}
+/*总价的折扣信息*/
+.discount-msg{padding-left: 5px;font-size: 12px;letter-spacing: 1px;color: #2196F3;display: none;}
+/*优惠卷信息*/
+.favourable-info{padding: 10px 20px;border-left:5px solid #f6d094;border-right:5px solid #f6d094;background: #555;width: 220px;text-align: center;margin-left: 0px;margin-top: 5px;color: #FFF;border-radius: 2px;position: relative;z-index: 2;position: fixed;bottom: 69px;right: 0px;float: right;display: none;}
+.favourable-info .icon{background: url('favourable-img') -85px no-repeat;position: absolute;display: block;width: 30px;height: 20px;top: 8px;left:7px;}
+.favourable-info .type{position: relative;text-align: right;font-size: 12px;top: -5px;left: 10px;color: #eee;letter-spacing: 1px;}
+.favourable-info .content{margin-bottom: 5px;letter-spacing: 1px;font-size: 13px;}
+.favourable-info .date .field{font-weight: bold;font-size: 14px;width: initial;}
+.favourable-info .date .value{letter-spacing: 1px;font-size: 13px;white-space: nowrap;}
+/*提示买家使用优惠卷*/
+.text-favourable-used-msg{margin-top: 19px;margin-right: 10px;font-size: 14px;letter-spacing: 1px;border-bottom: 1px solid #ddd;float: right;color: #E91E63;display: none;}
+/*在分类或者商品那里显示优惠字样*/
+#kfk-main .min-favourable{color: #00BCD4;font-size: 12px;padding: 0px 3px;}
+#kfk-main .active .min-favourable{color: #FFF;font-size: 12px;padding: 0px 3px;}
+/*product-null-msg*/
+.product-null-msg{letter-spacing: 1px;font-size: 14px;color: #666;display: none;}
+.cate-null-msg{letter-spacing: 1px;font-size: 14px;color: #666;display: none;}
+.payment-null-msg{letter-spacing: 1px;font-size: 14px;color: #666;display: none;width: 100%;text-align: center;display: none;}
+/*吐司提示*/
+._msg{position: fixed;z-index: 9999;padding: 15px 35px;background: #000;color: #FFF;top: 0px;border: none;border-radius: 5px;opacity: 0.6;font-size: 14px;opacity: 0.60;filter:Alpha(opacity=60);-moz-opacity:0.60;-khtml-opacity: 0.60;box-shadow: rgb(222, 225, 226) 0px 1px 24px;-moz-border-radius: 5px;-webkit-border-radius: 5px;border-radius: 5px;display: none;}
+/*土司提示按钮*/
+._msg_botton{position: fixed;background: #FFF;padding: 4px 15px;font-size: 13px;color: #555;z-index: 10000;display: inline-block;*display:inline;*zoom:1;top: 0px;cursor: pointer;display: none;letter-spacing: 1px;border-radius: 2px;}
+/*遮隐层*/
+.shade{z-index: 199;cursor: pointer;filter: alpha(opacity=60);-moz-opacity: 0.6;-khtml-opacity: 0.6;opacity: 0.5;position: fixed;width: 100%;height: 100%;top: 0px;display: none;}
+/*订单确认框*/
+tr td{height:34px;}
+.__order_box{z-index:999;box-shadow: 1px 1px 20px #bbb;}
+.__order_box_table{background-color: #fff;padding-bottom: 5px;color: rgb(94, 123, 136);font-size: 14px;border-bottom: none;padding-bottom: 0px;border-collapse: collapse;width:100%}
+.__order_box_table tr .td-left{width: 90px;margin-right: 10px;font-size: 13px;color: #655;font-weight: bold;height: 38px;}
+.__order_box_table tr .td-right{font-size: 13px;padding-right: 20px;color: #555;letter-spacing: 1px;}
+.__order_box_table tr{text-align: center;padding: 3px 10px;}
+.__order_box_header{width: 100%;background: #607d8b;text-align: center;color: #fff;height:3px;}
+.__order_box_desc{font-size:14px;padding:15px 40px 5px 40px;}
+.btn{*display:inline;*zoom:1;display: inline-block;padding: 8px 20px;cursor: pointer;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;font-size: 14px;}
+.btn_go{width: 300px;color: #fff;float: right;background-color: #03a9f4;padding: 12px 0px;font-weight: bold;}
+.btn_cancel{margin-left: 30px;color: #fff;height: 100%;padding: 12px 0px;float: left;}
+.tr-qkmm{display: none;}
+/*进度条*/
+#kfk-loading{height: 5px;display: none;position: fixed;top: 0px;width: 100%;z-index: 99;}
+#kfk-loading .loading-left{width: 0%;height: 100%;float: left;background: rgb(249, 218, 155);}
+#kfk-loading .loading-right{width: 5%;height: 100%;background: #2196F3;float: left;}
+/*等待支付*/
+.div-paying .title{font-weight: 400;width: 100%;text-align: center;font-size: 32px;color: #fff;letter-spacing: 2px;margin-top: 5%;}
+.div-paying .value{font-weight: 400;font-size: 24px;color: #EEE;letter-spacing: 1px;width: 100%;text-align: center;margin-top: 5%;padding-bottom: 10px;}
+.div-paying>.div-groud{border-bottom: 1px solid #777;padding-bottom: 10px;}
+.div-paying .value>i{padding-right: 0px;font-size: 12px;color: #ff6633;margin-left: 5px;font-weight: bold;}
+.div-paying .jt{font-size: 16px;color: #0babf7;}
+.div-paying .btn{padding:10px 30px;font-size: 18px;cursor: pointer;}
+.btn-final{border: none;background: #FFF;color: #555;display: inline-block;margin-left: 20%;}
+.btn-cancel{border: none;background: #ff6633;color: #FFF;display: inline-block;}
+.div-paying .div-groud-btns{margin-top: 6%;display: inline-block;width: 100%;text-align: center;}
+.div-paying-shadow{opacity:0.85; filter: alpha(opacity=85);*zoom:1;position:static;background-color:#000;z-index: 999;height: 2000px;width: 100%;position: fixed;top: 0px;cursor: pointer;display:none;}
+.div-paying{padding: 15px 25px;margin: 0px auto;position: absolute;top: 15%;z-index: 999;border-radius: 2px;left:30%;min-width: 600px;display: none;}
+/*微信支付二维码样式*/
+#wxzf{background-color:#fff;z-index:888;display: none;top: 20%;}
+.__order_box .qrcode{margin-left: 20px;margin: 0px auto;position: relative;overflow: hidden;display: block;text-align: center;}
+.__order_box .qrcode img{border: none;text-align: center;margin:0px auto;}
+.__order_box .btns{display: block;text-align: center;}
+.__order_box .btn_pay_end{background-color: #FF6699;color: #fff;border-color: #FF6699;margin-left: 30px;}
+.__order_box .gray{color: #979797;font-size: 12px;font-family:"宋体";display: block;padding: 10px;text-align: center;cursor: pointer;letter-spacing: 1px;}
+.wx-shade{cursor:pointer;background: #000;width:100%;height:100%;position:fixed;top:0px;filter:alpha(opacity=10);-moz-opacity:0.1;opacity: 0.1;}
+.order-info{text-align: center;font-size: 13px;margin-top: 5px;}
+.order-info>label{letter-spacing: 1px;font-size: 13px;color: #999;}
+.order-info>i{font-size:12px;color: #f69;letter-spacing: 1px;margin-left: 5px;}
+/*更换支付方式*/
+.btn_change{color: #f27f57;padding-bottom: 3px;font-size: 14px;}

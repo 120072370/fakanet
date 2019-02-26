@@ -1,0 +1,1 @@
+<?php if(!defined('WY_ROOT')) exit; ?>

@@ -1,0 +1,1 @@
+a:7:{i:0;a:2:{s:2:"id";i:1;s:9:"classname";s:12:"平台公告";}i:1;a:2:{s:2:"id";i:8;s:9:"classname";s:12:"其他分类";}i:2;a:2:{s:2:"id";i:3;s:9:"classname";s:12:"行业新闻";}i:3;a:2:{s:2:"id";i:4;s:9:"classname";s:12:"通知公告";}i:4;a:2:{s:2:"id";i:5;s:9:"classname";s:15:"商户小提示";}i:5;a:2:{s:2:"id";i:9;s:9:"classname";s:12:"首页公告";}i:6;a:2:{s:2:"id";i:10;s:9:"classname";s:6:"公告";}}

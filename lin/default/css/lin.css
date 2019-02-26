@@ -1,0 +1,349 @@
+﻿.content {
+    width: 1210px;
+    margin: 20px auto;
+}
+
+.Onlinelin {
+    width: 550px;
+    min-height: 295px;
+    padding: 0 30px;
+    background: #fff;
+    filter: alpha(opacity=90);
+    -moz-opacity: 0.9;
+    opacity: 0.9;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #dadada;
+    z-index: 1000;
+    margin: 7px auto 0;
+}
+
+.form {
+    float: left;
+}
+
+.Onlinelin .form_header {
+    height: 50px;
+    line-height: 50px;
+    background: url(../images/buy_bg.jpg) no-repeat 64px bottom;
+    margin-bottom: 14px;
+}
+
+.Onlinelin .form {
+    width: 100%;
+    padding: 10px 0;
+    text-align: left;
+    display: inline-block;
+    float: left;
+}
+
+.Onlinelin label {
+    display: inline-block;
+    width: 18%;
+    float: left;
+    line-height: 40px;
+}
+
+.blue {
+    font-size: 12px;
+    color: red;
+}
+
+.Onlinelin span {
+    display: inline-block;
+    line-height: 40px;
+}
+
+.Onlinelin .buy_form {
+    float: left;
+}
+
+.onOnlinelin .buy_info {
+    width: 450px;
+}
+
+.Onlinelin .input_group {
+    width: 100%;
+    display: inline-block;
+    margin: 10px;
+    /*height: 30px;*/
+    font-size: 16px;
+}
+
+.Onlinelin .price {
+    font-weight: bold;
+    color: red;
+    font-size: 14px;
+}
+
+.Onlinelin h1 {
+    padding-left: 62px;
+    background: url(../images/917_buy_num01.jpg) no-repeat 24px center;
+    font-size: 22px;
+    border-bottom: 1px solid #dedede;
+    font-weight: 600;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    color: #278FE8;
+    text-align: left;
+}
+
+.Onlinelin .pinfo2 {
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+}
+
+.Onlinelin .tprice {
+    font-size: 18px;
+}
+
+.input {
+    width: 40%;
+    border-radius: 4px;
+    border: 1px solid #006fcb;
+    padding: 5px 10px;
+    height: 28px;
+}
+
+.Onlinelin select {
+    border: 1px solid #006fcb;
+    width: 350px;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 40px;
+    float: left;
+    margin-left: 2px;
+    height: 40px;
+}
+
+.Onlinelin i {
+    width: 75%;
+    display: inline-block;
+    float: left;
+}
+
+.Onlinelin .m-btn {
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+}
+
+.lin_submit {
+    background-color: #2cbeed;
+    border: none;
+    width: 20%;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.Onlinelin .m-reg {
+    background-color: #FDB63C;
+    border: none;
+    width: 48%;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 40px;
+    float: right;
+    text-align: center;
+}
+
+.OnlineInfo {
+    background: url(/tpl/weiqi/content/webimages/lpic51.jpg) repeat-y;
+    width: 450px;
+    min-height: 295px;
+    padding: 0 30px;
+    filter: alpha(opacity=90);
+    -moz-opacity: 0.9;
+    opacity: 0.9;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #dadada;
+    z-index: 1000;
+    margin: 7px auto 0;
+    margin-left: 10px;
+}
+
+    .OnlineInfo .buy_info {
+        text-align: left;
+        color: #fff;
+    }
+
+    .OnlineInfo h1 {
+        font-size: 22px;
+        border-bottom: 1px solid #dedede;
+        font-weight: 400;
+        padding-bottom: 10px;
+        margin-top: 20px;
+    }
+
+    .OnlineInfo h2 {
+        font-size: 20px;
+        font-weight: 400;
+        padding-bottom: 10px;
+        margin-top: 20px;
+    }
+
+    .OnlineInfo p {
+        margin-top: 6px;
+    }
+      .OnlineInfo a {
+        color:#fff;
+    }
+
+.charge {
+    width: 90%;
+    float: left;
+    margin-top: 20px;
+    background-color: #fff;
+    min-height: 295px;
+    padding: 0 30px;
+    filter: alpha(opacity=90);
+    -moz-opacity: 0.9;
+    opacity: 0.9;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #dadada;
+    z-index: 1000;
+    margin-bottom: 20px;
+}
+
+.choose_goods {
+    width: 100%;
+}
+
+.content {
+    width: 1200px;
+   
+}
+
+.charge_header {
+    width: 870px;
+    height: 28px;
+    line-height: 28px;
+    margin-bottom: 14px;
+    margin-top: 15px;
+}
+
+    .charge_header h1 {
+        padding-left: 62px;
+        background: url(../images/buy_num02.jpg) no-repeat 24px center;
+        color: #1185e8;
+        font-size: 18px;
+        font-weight: bold;
+        text-align: left;
+    }
+
+.choose_charge {
+    width: 100%;
+    height: 56px;
+    margin-bottom: 40px;
+}
+
+    .choose_charge ul {
+        width: 100%;
+        height: 56px;
+        background: #1185e8;
+    }
+
+        .choose_charge ul li {
+            width: 170px;
+            height: 56px;
+            background: #1185e8;
+            text-align: center;
+        }
+
+            .choose_charge ul li.active {
+                background: #000000;
+            }
+
+            .choose_charge ul li a {
+                display: inline-block;
+                width: 170px;
+                height: 56px;
+                line-height: 56px;
+            }
+
+                .choose_charge ul li a img {
+                    display: inline-block;
+                    vertical-align: middle;
+                    margin-right: 10px;
+                }
+
+                .choose_charge ul li a span {
+                    vertical-align: middle;
+                    color: #ffffff;
+                    font-weight: bold;
+                }
+
+.card {
+    margin-bottom: 20px;
+}
+
+    .card ul {
+        padding-left: 4px;
+    }
+
+        .card ul li {
+            width: 152px;
+            margin-left: 16px;
+            margin-bottom: 35px;
+            float: left;
+        }
+
+            .card ul li a {
+                display: inline-block;
+                width: 152px;
+            }
+
+                .card ul li a label {
+                    display: inline-block;
+                    width: 152px;
+                    cursor: pointer;
+                    font-size: 18px;
+                    font-weight: bold;
+                }
+
+    .card input {
+        display: inline-block;
+        vertical-align: middle;
+        /*margin-right: 10px;*/
+    }
+
+    .card img {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+.zf {
+    width: 100%;
+    display: block;
+    float: left;
+}
+
+.qrcodeTable {
+    width: 155px;
+    padding: 15px 15px;
+    margin: 40px auto;
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 2px;
+    color: #fff;
+    text-align: center;
+}
+
+.inter {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: rgba(255, 251, 251, 0.14);
+    border-radius: 2px;
+    border: 1px solid rgba(255,255,255,0.3);
+    color: #fff;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 13px;
+}

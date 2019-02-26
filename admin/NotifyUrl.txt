@@ -1,0 +1,12 @@
+array (
+)
+
+array (
+  'action' => 'add',
+  'userid' => '16',
+  '_' => '1503365544613',
+)
+
+'SELECT * FROM faka_userinfo where id=16'
+
+false

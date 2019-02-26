@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+	font-family:Arial,"微软雅黑";
+	font-size:14px;
+	list-style:none;
+	font-weight:normal;
+	text-decoration:none;
+	color:#393939;/*标题*/
+}
+body{
+	background:#ffffff;
+	width:100%;
+}
+
+.header{
+	width:100%;
+	height:300px;
+
+}
+
+.content{
+	width: 100%;
+}
+.red {
+	COLOR: #f00
+}
+.page_gonggao{
+	width: 1180px;
+	margin: 0 auto;
+}
+.page_header{
+	width: 1180px;
+	height: 100px;
+	overflow: hidden;
+	border-bottom: solid 1px #f0f0f0;
+}
+.page_header h1{
+	width: 194px;
+	height: 100px;
+	line-height: 100px;
+	float: left;
+	font-size: 40px;
+	text-align: center;
+	background: url(../images/917_bgIcon.jpg) no-repeat center bottom;
+}
+.page_header .recent{
+	width: 300px;
+	height: 100px;
+	line-height: 100px;
+	float: right;
+}
+.page_header .recent a:hover{
+	color: #008bff;
+}
+.page_content{
+	width: 1180px;
+	margin: 0 auto 50px 0;
+	border: solid 1px #f0f0f0;
+	overflow: hidden;
+}
+.left_nav{
+	width: 194px;
+	float: left;
+	margin-top: 25px;
+}
+.left_nav ul li{
+	height: 50px;
+	line-height: 50px;
+	float: none;
+	text-align: center;
+}
+.left_nav ul li a{
+	display: inline-block;
+	width: 194px;
+	height: 50px;
+	line-height: 50px;
+}
+.left_nav ul li a:hover{
+	display: inline-block;
+	width: 194px;
+	height: 50px;
+	line-height: 50px;
+	color: #008bff;
+}
+.left_nav ul li.nav_current{
+	background: #1185e8;
+}
+.left_nav ul li.nav_current a{
+	color: #ffffff;
+}
+.center_text{
+	width: 885px;
+	float: right;
+	border-left: solid 1px #f0f0f0;
+	padding: 0 50px 80px 5px;
+}
+.center_text h2{
+	margin-top: 25px;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	color: #1185e8;
+	font-size: 24px;
+	margin-bottom: 30px;
+}
+
+
+

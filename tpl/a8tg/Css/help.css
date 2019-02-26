@@ -1,0 +1,72 @@
+.help_top {
+	WIDTH: 380px; FLOAT: right
+}
+.help_top LI {
+	MARGIN-TOP: 20px
+}
+.help_top LI A {
+	TEXT-ALIGN: center; LINE-HEIGHT: 37px; WIDTH: 114px; DISPLAY: block; BACKGROUND: url(../Images/top_2.png) no-repeat; FLOAT: right; HEIGHT: 37px; COLOR: #fff; MARGIN-LEFT: 10px; FONT-SIZE: 14px
+}
+.help_top LI A:hover {
+	BACKGROUND: url(../Images/top_1.png) no-repeat
+}
+.help_top LI A.xzzn {
+	BACKGROUND: url(../Images/top_1.png) no-repeat
+}
+.help_left {
+	BORDER-BOTTOM: #dfdfdf 1px solid; BORDER-LEFT: #dfdfdf 1px solid; WIDTH: 180px; FLOAT: left; BORDER-TOP: #dfdfdf 1px solid; BORDER-RIGHT: #dfdfdf 1px solid
+}
+.help_left H1 {
+	LINE-HEIGHT: 30px; PADDING-LEFT: 10px; BACKGROUND: url(../Images/help_left_1.png) no-repeat; HEIGHT: 30px; COLOR: #fff; FONT-SIZE: 14px; text-shadow: 1px 1px #333
+}
+.help_left OL {
+	LINE-HEIGHT: 30px; TEXT-INDENT: 20px; DISPLAY: block; BACKGROUND: url(../Images/help_left_2.png) no-repeat; HEIGHT: 30px; FONT-WEIGHT: bold
+}
+.help_left LI {
+	BORDER-BOTTOM: #efefef 1px dotted; LINE-HEIGHT: 30px; TEXT-INDENT: 30px; DISPLAY: block; HEIGHT: 30px
+}
+.help_right {
+	WIDTH: 790px; FLOAT: right
+}
+.help_gg {
+	BORDER-BOTTOM: #dfdfdf 1px solid; BORDER-LEFT: #dfdfdf 1px solid; MARGIN-BOTTOM: 10px; OVERFLOW: hidden; BORDER-TOP: #dfdfdf 1px solid; BORDER-RIGHT: #dfdfdf 1px solid
+}
+.help_gg H1 {
+	BORDER-BOTTOM: #dfdfdf 1px solid; LINE-HEIGHT: 30px; PADDING-LEFT: 10px; BACKGROUND: url(../Images/help_right_1.png) repeat-x; FONT-SIZE: 14px
+}
+.help_gg UL {
+	PADDING-BOTTOM: 20px; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; OVERFLOW: hidden; PADDING-TOP: 20px
+}
+.help_gg UL LI {
+	PADDING-BOTTOM: 10px; PADDING-TOP: 10px
+}
+.help_gg UL LI.btl {
+	BORDER-BOTTOM: #dfdfdf 1px dashed; COLOR: #f30; FONT-WEIGHT: bold
+}
+.help_gg UL LI.xwbt {
+	BORDER-BOTTOM: #dfdfdf 1px dotted
+}
+.help_gg UL LI.xwmc {
+	BORDER-BOTTOM: #dfdfdf 1px dotted; TEXT-ALIGN: center; FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+.help_gg UL LI.zb {
+	TEXT-ALIGN: right
+}
+.help_gg UL OL {
+	LINE-HEIGHT: 30px; WIDTH: 170px; FLOAT: left
+}
+.help_gg UL OL.jz {
+	TEXT-ALIGN: center; MARGIN-RIGHT: 15px
+}
+.help_ss {
+	BORDER-BOTTOM: #dfdfdf 2px solid; BORDER-LEFT: #dfdfdf 2px solid; MARGIN-BOTTOM: 10px; BACKGROUND: url(../Images/ssbj.png) repeat-x; HEIGHT: 83px; BORDER-TOP: #dfdfdf 2px solid; BORDER-RIGHT: #dfdfdf 2px solid
+}
+.help_ss UL {
+	PADDING-BOTTOM: 15px; PADDING-LEFT: 15px; PADDING-RIGHT: 15px; PADDING-TOP: 15px
+}
+.help_ss UL LI {
+	MARGIN-BOTTOM: 10px; MARGIN-LEFT: 225px; OVERFLOW: hidden
+}
+.help_ss UL LI.ssk {
+	BORDER-BOTTOM: #dfdfdf 3px solid; BORDER-LEFT: #dfdfdf 3px solid; WIDTH: 500px; BORDER-TOP: #dfdfdf 3px solid; BORDER-RIGHT: #dfdfdf 3px solid
+}

@@ -1,0 +1,240 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	font-family:Arial,"微软雅黑";
+	font-size:14px;
+	list-style:none;
+	font-weight:normal;
+	text-decoration:none;
+	color:#393939;
+}
+body{
+	background:#ffffff;
+	width:100%;
+}
+ul{
+	overflow:hidden;
+}
+dl,li{
+	float:left;
+}
+img{
+	border:none;
+	display: block;
+}
+a:focus{
+	outline:none;
+}
+.header{
+	width:100%;
+	height:650px;
+	text-align:center;
+	position:relative;
+	overflow:hidden;
+}
+.header_nav{
+	width:100%;
+	height:65px;
+	position:relative;
+	z-index:99;}
+.nav{
+	width:1180px;
+	height:65px;
+	position:absolute;
+	top:0;
+	left:50%;
+	margin-left:-590px;
+	z-index:2;}
+.logo{
+	width:147px;
+	height:65px;
+	float:left;
+	padding-top:7px;}
+.nav ul{
+	float:left;
+	padding:0 15px;
+	height:65px;
+	line-height:65px;}
+.nav ul li{
+	line-height:65px;
+	height:65px;
+	margin:0 15px;}
+.nav ul li a{
+	font-size:16px;
+	color:#ffffff;}
+.login{
+
+	line-height:65px;}
+.login ul{
+	float:right;
+	}
+.banner{
+	width:1980px;
+	position:absolute;
+	top:0;
+	left:50%;
+	margin-left:-990px;
+	overflow:hidden;}
+.header_nav:hover {
+	background:#000;}
+.nav ul li a:hover{
+	color:#6ca3ff;}
+.login ul li#charge{width:96px;}
+.login ul li#charge a{display:inline-block; width:94px;
+height:26px; line-height:26px; border:solid 1px #FFF; border-radius:2px;}
+.content{width:100%;}
+.box{
+	width:1180px;
+	margin:0 auto;
+	overflow:hidden;}
+.box h1{
+	width:194px;
+	margin:50px auto;
+	color:#333;
+	font-size:40px;
+	padding-bottom:30px;
+	background:url(tpl/green/common/images/12_bgIcon.jpg) no-repeat center bottom;
+	text-align:center;}
+.gonggao_dl dl{
+	width:310px;
+	height:160px;
+	margin-right:20px;
+	padding:20px 35px;
+	background:url(tpl/green/common/images/12_background.png) no-repeat center center;}
+.gonggao_dl .last{
+	margin-right:0;}
+.box_youshi{
+	width:1180px;
+	margin:0 auto;
+	overflow:hidden;}
+.box_gonggao{
+	width:1180px;
+	margin:0 auto;
+	overflow:hidden;}
+.box_huoban{
+	width:1180px;
+	margin:0 auto;
+	overflow:hidden;}
+.box_liucheng{
+	width:1180px;
+	margin:0 auto;
+	overflow:hidden;}
+.box_bushu{
+	width:1180px;
+	margin:0 auto;
+	overflow:hidden;}
+.youshi_dl dl{
+	width:278px;
+	margin-right:20px;
+	border:solid 1px #dcdcdc;
+	padding-bottom:60px;}
+.youshi_dl dl dt{
+	width:278px;
+	margin-bottom:60px;
+	text-align:center;}
+.youshi_dl dl dd{
+	text-align:center;
+	line-height:36px;}
+.youshi_dl dl dd span{
+	font-size:18px;
+	font-weight:bold;}
+.youshi_dl dl.last{
+	margin-right:0;}
+.liucheng_dl ul{
+	padding:0 84px;}
+.liucheng_dl ul li{
+	margin:0 48px;}
+.liucheng_img img{
+	margin:0 auto;}
+.huoban_dl ul{
+	padding:0 85px;}
+.huoban_dl ul li{
+	width:170px;
+	margin:0 15px;}
+.safely{
+	width:100%;
+	height:101px;
+	background:url(tpl/green/common/images/12_foot.jpg) no-repeat center bottom;}
+.box_huoban{
+	margin-bottom:60px;}
+.gonggao_dl dl dt span{
+	color:#ff0000;
+	font-size:18px;
+	line-height:36px;
+	font-weight:bold;}
+.gonggao_dl dl dt{
+	text-align:justify;
+	line-height:30px;
+	color:#000000;}
+.gonggao_dl dl dd{
+	text-align:right;
+	line-height:30px;
+	color:#000000;}
+.footer{
+	width:100%;
+	background:#151C27;
+	text-align:center;}
+.newFooter{
+	width:1000px;
+	margin:0 auto;
+	padding:0 60px 0 120px;
+	overflow:hidden;}
+.newFooterList_2{
+	float:left;
+	width:200px;
+	text-align:center;}
+.newFooterList_2 dt{
+	color:#ffffff;
+	font-size:22px;
+	padding:50px 0 0;
+	text-align:center;}
+.newFooterList_2 dd{
+	padding:15px 0 0;}
+.newFooterList_2 ul{
+	margin:0 0 0 15px;
+	overflow:visible;}
+.newFooterList_2 li{
+	color:#ffffff;
+	float:none;
+	list-style:disc outside none;
+	padding:5px 0;
+	font-size:14px;
+	text-align:left;}
+.newFooterList_2 li a{
+	color:#cccccc;}
+.newFooterList_2 li.list_none{
+	list-style:none;}
+.copyright{
+	clear:both;
+	color:#cccccc;
+	line-height:22px;
+	padding:45px 0;}
+.copyright a{
+	font-size:14px;
+	padding:0 6px;
+	color:#cccccc;}
+.copyright p{
+	color:#cccccc;}
+.footer a:hover{
+	color:#ffffff;}
+.sygltt{ width:100%; height:558px; background:url(http://picoss.ikpay.ikpay.net/Template/Template5/images/gltdbj.jpg) no-repeat center}
+.p-title-one{
+	font-weight: 400;
+	text-align: center;
+	font-family: 'Microsoft YaHei', sans-serif;
+	font-size: 15px;
+	color: #fff;
+	text-transform: uppercase;
+	opacity: 0.5;
+	padding-top: 50px;
+}
+.p-title-two{
+	font-weight: 300;
+	text-align: center;
+	font-family: 'Microsoft YaHei', sans-serif;
+	font-size: 35px;
+	color: #fff;
+	padding: 15px 0 30px;
+}

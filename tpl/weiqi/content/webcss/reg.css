@@ -1,0 +1,134 @@
+﻿.banner {
+   
+        background-color: #287EC7;
+}
+.InNews_reg {
+       background: url(/tpl/weiqi/content/webimages/lpic51.jpg) repeat;
+        overflow: hidden;
+        height:865px;
+}
+.OnlineReg {
+    width:580px;
+    min-height: 800px;
+    margin-top: 20px;
+    padding: 5px 30px;
+    background: #fff;
+    filter: alpha(opacity=90);
+    -moz-opacity: 0.9;
+    opacity: 0.9;
+    /*float: right;*/
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #dadada;
+    /*position: absolute;*/
+    z-index: 1000;
+    /*left: 33%;*/
+    margin:37px auto 0;
+}
+
+    .OnlineReg h3 {
+        font-size: 22px;
+        border-bottom: 1px solid #dedede;
+        font-weight: 400;
+        padding-bottom: 10px;
+        width: 100%;
+        text-align: center;
+        color: #666;
+        margin-top: 20px;
+    }
+
+    .OnlineReg ul {
+        width: 100%;
+        padding: 10px 0;
+        text-align: left;
+        display: inline-block;
+        float: left;
+    }
+
+        .OnlineReg ul li {
+            width: 100%;
+            padding: 10px 0;
+            float: left;
+        }
+
+    .OnlineReg label {
+        display: inline-block;
+        width: 15%;
+       text-align:right;
+    }
+
+     .OnlineReg .onError {
+        color:red;
+        font-size:12px;
+    }
+       .OnlineReg .onFocus {
+        color:red;
+        font-size:12px;
+    }
+    .OnlineReg .onCorrect {
+            color:green;
+        font-size:12px;
+    }
+    .OnlineReg i {
+        width: 85%;
+        display: inline-block;
+        float: left;
+    }
+.OnlineReg .middle {
+    width: 40%;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+}
+
+.OnlineReg .middle .phone{
+    width: 20%;
+
+}
+
+ .OnlineReg .m-submit {
+    background-color: #2cbeed;
+    border: none;
+    width: 48%;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 40px;
+    float: left;
+}
+
+.OnlineReg .m-reg {
+    background-color: #FDB63C;
+    border: none;
+    width: 48%;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 40px;
+    float: left;
+    text-align: center;
+}
+
+.OnlineReg .sendcode {
+    background-color: #FDB63C;
+    border: none;
+    width: 27%;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 27px;
+    text-align: center;
+}
+
+.OnlineReg .code {
+    width: 10%;
+}
+
+.OnlineReg select {
+    border: 1px solid #ccc;
+    width: 150px;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 40px;
+    float: left;
+    margin-left:2px;
+}

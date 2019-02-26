@@ -1,0 +1,65 @@
+﻿*{margin:0;padding:0;}
+html,body{font-size:14px;color:#000;font-family:arial,'宋体'}
+body{background:#168800}
+ul{list-style:none;}
+img{border:0}
+.red{color:red};
+.green{color:green}
+.blue{color:blue}
+.gray{color:gray}
+a{color:green}
+.input{border:1px solid #ccc;padding:2px 5px;}
+
+#container{width:950px;margin:auto;background:#fff}
+#header{border-bottom:1px solid #dadada;padding:6px}
+
+#main{margin-top:10px;padding:0 10px}
+#buy_top{background:url(../images/buy_top_bg.gif) repeat-x bottom;height:35px;line-height:35px;}
+#buy_top_title{background:url(../images/buy_top_title_bg.gif) no-repeat;width:252px;height:35px;line-height:35px;color:#fff;font-weight:bold;padding-left:20px}
+#search{position:relative;margin-top:-40px;margin-left:590px}
+#search .input{width:220px}
+#search .submit{font-size:12px;width:90px;padding:2px 0px;}
+
+#buy_info{margin:10px 0;width:99%;border-collapse:collapse}
+#buy_info td{color:#999;line-height:30px;padding-left:10px}
+#buy_info td span{color:#333;}
+
+#agreement{display:none;background-color:#f5fde6;border:1px solid #ccc;padding:10px;margin-bottom:10px}
+#agreement p{padding:5px 0;line-height:24px;color:#000}
+
+.step{background:url(../images/step_bg.gif) repeat-x;height:36px;line-height:36px;color:#000;font-weight:bold;padding-left:20px;font-size:16px}
+ul#step_one{margin:10px 0}
+ul#step_one li{padding:2px 0;padding-left:10px}
+
+#checkcoupon{font-size:12px;color:red}
+
+#payinfo{background:#fef7ed;border:1px solid #c5b383;padding:10px;font-weight:bold;margin-bottom:10px;font-size:16px}
+
+.pinfo3{}
+.cursor{cursor:pointer}
+
+#step_two{border:1px solid #ccc;padding:10px;border-top:0;background:url(../images/step_2_bg.gif) repeat-x top;}
+ul#select_pay{}
+ul#select_pay li{display:block;height:42px;line-height:42px;float:left;font-weight:bold;color:#173c59;margin-right:20px;}
+ul#select_pay li.selected{background:url(../images/h_bg.gif) no-repeat;width:151px;text-align:center}
+
+.paylist{padding:5px 0;clear:both}
+#banks,#cards{display:none;}
+#step_three{clear:both}
+.paylist li{font-weight:bold;width:220px;height:50px;float:left;line-height:50px;margin:2px 0;border:1px solid #fff;text-align:center}
+.paylist .yb,.paylist .ybh{border:1px solid yellow;}
+
+.card_tips{clear:both;height:30px;line-height:30px;border:1px #EFF3DC solid;padding:0 10px; margin-top:10px;background-color:#F5FDE6;}
+
+#cardlist{padding-top:10px;float:left;}
+.card_list ul li{margin:3px 0;padding-left:10px}
+
+#carddesc{padding-left:460px;margin-top:10px}
+#carddesc li{margin-bottom:3px;border:1px solid #fadba5;background:#fff2be;padding:3px 5px}
+
+#protect{clear:both;margin:10px 0;border:1px solid #fadba5;background:#fff2be url(../images/protect.gif) no-repeat left center;padding:6px;color:red;padding-left:100px;background-position:20px 10px}
+#protect p{padding:2px 0}
+
+#submit{text-align:center;}
+
+#footer{text-align:center;color:#666;padding:20px 0;border-top:2px solid #666;margin-top:20px}

@@ -1,0 +1,23 @@
+$(document).ready(function(){
+	//$("#full_table").("show");
+    $.ajax({
+         type:'post',
+         url:"ajax.php",
+         data:{class_id:"9"},
+         success:function(response){
+            $("#new_1").html(response);
+			$("#new_1").css("display","block");
+            },
+         dataType:'html'
+    });
+	//sleep(20);
+    $.ajax({
+         type:'post',
+         url:"ajax.php",
+         data:{class_id:"3"},
+         success:function(response){
+            $("#new_3").html(response);
+            },
+         dataType:'html'
+    });
+});

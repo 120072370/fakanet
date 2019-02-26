@@ -1,0 +1,32 @@
+
+A.cs {
+	COLOR: #f90; TEXT-DECORATION: none
+}
+A.cs:hover {
+	COLOR: #e95701; TEXT-DECORATION: none
+}
+A.hs {
+	COLOR: #444; TEXT-DECORATION: none
+}
+A.hs:hover {
+	COLOR: #e95701; TEXT-DECORATION: none
+}
+.input_txt {
+	BORDER-BOTTOM: #dfdfdf 1px solid; BORDER-LEFT: #dfdfdf 1px solid; TEXT-INDENT: 3px; HEIGHT: 20px; BORDER-TOP: #dfdfdf 1px solid; BORDER-RIGHT: #dfdfdf 1px solid; box-shadow: 0 0 4px #dfdfdf inset
+}
+.input_txt:hover {
+	BORDER-BOTTOM: #ff6600 1px solid; BORDER-LEFT: #ff6600 1px solid; BORDER-TOP: #ff6600 1px solid; BORDER-RIGHT: #ff6600 1px solid; box-shadow: 0 1px 10px #FF6600 inset
+}
+.input_txt:focus {
+	BORDER-BOTTOM: #ff6600 1px solid; BORDER-LEFT: #ff6600 1px solid; BORDER-TOP: #ff6600 1px solid; BORDER-RIGHT: #ff6600 1px solid; box-shadow: 0 1px 10px #FF6600 inset
+}
+.yxddcx SELECT {
+	WIDTH: 122px
+}
+.cxFormtime {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; WIDTH: 69px; BACKGROUND: url(../images/sell/pecsonal_cx.png) no-repeat; HEIGHT: 21px; MARGIN-LEFT: 10px; BORDER-TOP: medium none; CURSOR: pointer; BORDER-RIGHT: medium none
+}
+.cxFormtime:hover {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; WIDTH: 69px; BACKGROUND: url(../images/sell/pecsonal_cx1.png) no-repeat; HEIGHT: 21px; MARGIN-LEFT: 10px; BORDER-TOP: medium none; CURSOR: pointer; BORDER-RIGHT: medium none
+}
+操作：全选，下架，删除-- > .dxk_qx {

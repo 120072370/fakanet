@@ -1,0 +1,36 @@
+.xi_item {
+	MARGIN: 1px 2px 1px 4px; FONT-SIZE: 14px
+}
+#xi_container TD {
+	FONT-SIZE: 12px
+}
+#xi_box TD {
+	FONT-SIZE: 12px
+}
+.xii_row {
+	TEXT-ALIGN: left; CURSOR: hand
+}
+.xii_selected {
+	BACKGROUND: #cccccc
+}
+.homePage:visited {
+	COLOR: #666666
+}
+.homePage:hover {
+	COLOR: red
+}
+.tab LI.current A SPAN {
+	BACKGROUND: 0px 0px
+}
+.tab LI.current A:hover SPAN {
+	BACKGROUND: 0px 0px
+}
+.reduce {
+	WIDTH: auto; TEXT-OVERFLOW: ellipsis; WHITE-SPACE: nowrap !important; FLOAT: left; OVERFLOW: hidden
+}
+.sycxan {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; WIDTH: 78px; DISPLAY: block; BACKGROUND: url(../images/365ka_Search.png) no-repeat; HEIGHT: 28px; BORDER-TOP: medium none; CURSOR: pointer; BORDER-RIGHT: medium none; _float: right
+}
+.sycxan:hover {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; WIDTH: 78px; BACKGROUND: url(../images/365ka_Search_1.png) no-repeat; HEIGHT: 28px; BORDER-TOP: medium none; CURSOR: pointer; BORDER-RIGHT: medium none
+}

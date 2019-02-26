@@ -1,0 +1,96 @@
+/**
+ *
+ * Apply Here your Custom CSS
+ *
+*/
+
+body {
+    font-size: 14px;
+}
+
+.no-padding {
+    padding: 0;
+    margin: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.no-paddingleftright {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.no-buttom {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.panel-bluebody {
+    /*background: linear-gradient(to right, #10a9f0 , #0073b7);
+   color:#fff;*/
+    padding: 0;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+body .page-container .sidebar-menu {
+    border-bottom: 1px solid #ebebec;
+}
+
+.tile-stats .num {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.tile-stats .alert-default {
+    color: #fff;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: -20px;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+.tile-stats p {
+    font-size: 14px;
+    line-height: 29px;
+    margin-top: 9px;
+}
+
+.form-control {
+    /*height: 48px;*/
+}
+
+/*.modal_wrapper {
+    display: table;
+    height: 100%;
+    margin: 0px auto;
+}
+
+.modal-dialog {
+    display: table-cell;
+    vertical-align: middle;
+}*/
+
+
+/*.modal_wrapper {
+    display: table;
+    overflow: auto;
+    overflow-y: scroll;
+    height: 100%;
+    -webkit-overflow-scrolling: touch;
+    outline: 0;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.modal-dialog {
+    margin-top: 0px;
+    display: table-cell;
+    vertical-align: middle;
+    margin: 0px 20px;
+}*/

@@ -1,0 +1,104 @@
+@charset "utf-8";
+.login{ border:#dfdfdf solid 1px; overflow:auto;}
+.login h1{ background:url(tpl/slwka/Images/dhbj.png) repeat-x; height:27px; border-bottom:#dfdfdf solid 1px; font-size:14px; font-weight:normal; padding-top:8px; padding-left:10px;}
+
+#navc{height:30px;border-bottom:#dfdfdf solid 1px; padding-left:200px;}
+#navc ol{ float:left;width:122px; height:31px;line-height:31px;margin-right:10px;text-align:center;}
+#navc ol a{display:block;cursor:pointer; background:url(tpl/slwka/Images/buy_tab_2.png) no-repeat;}
+#navc ol .navc_on{ background:url(tpl/slwka/Images/buy_tab_1.png) no-repeat;color:#09F;}
+
+.login_ok{ border:#dfdfdf solid 1px; overflow:auto;}
+.login_ok h1{ background:url(tpl/slwka/Images/dhbj.png) repeat-x; height:27px; border-bottom:#dfdfdf solid 1px; font-size:14px; font-weight:normal; padding-top:8px; padding-left:10px;}
+.login_ok ul{margin:100px;}
+.login_ok ul li{ padding-bottom:10px; padding-top:10px; text-indent:240px;}
+.login_ok ul li.cgzc{ color:#390; font-size:16px; font-weight:bold; background:url(tpl/slwka/Images/zccg.png) no-repeat 200px; height:32px; line-height:32px;}
+
+.sjyx{ width:520px; margin-left:auto; margin-right:auto; margin-top:50px;}
+.sjyx ul{overflow:auto}
+.sjyx ul li{width:236px; height:56px; line-height:56px; float:left; text-align:center;text-shadow:1px 1px #666; color:#FFF; font-size:18px; margin-right:20px;}
+.sjyx ul li a{text-shadow:1px 1px #666; color:#FFF; }
+.sjyx ul li.xz{ background:url(tpl/slwka/Images/zhmm_tab_1.png) no-repeat;}
+.sjyx ul li.wz{ background:url(tpl/slwka/Images/zhmm_tab_2.png) no-repeat;}
+
+.zhlc{position:relative;width:620px; height:45px; margin-left:auto; margin-right:auto; margin-top:30px;}
+.zhlc_xzs_1{ background:url(tpl/slwka/Images/zhlc1.png) no-repeat;text-align:center;width:215px; height:45px; line-height:45px;}
+.zhlc_xzs_2{ background:url(tpl/slwka/Images/zhlc2.png) no-repeat;text-align:center;width:215px; height:45px; line-height:45px; color:#FFF;}
+.zhlc_wz_1{position:absolute; left:0px;}
+.zhlc_wz_2{position:absolute; left:200px;}
+.zhlc_wz_3{position:absolute; left:400px;}
+
+
+.txyzzl{width:350px;margin-left:auto; margin-right:auto; margin-top:30px;}
+.txyzzl li{ margin-top:30px; margin-bottom:30px;} 
+.txyzzl li span{ float:left; display:block; width:80px; text-align:right;line-height:40px; padding-right:5px;}
+.txyzzl li input{ border:#dfdfdf solid 1px; height:30px; line-height:30px; margin-top:4px;}
+
+.yzfs{width:550px;margin-left:auto; margin-right:auto; margin-top:30px; background:#efefef; padding:30px;}
+
+.news_login{margin-bottom:50px; overflow:hidden}
+/*修改部分：float:left; margin:30px;*/
+.news_login_right{float:left; margin:0px; width:281px; background:#FFF;box-shadow:0 1px 5px #dfdfdf;border:1px solid #BAC3C8;border-radius:5px;-moz-border-radius:5px;}
+/*修改部分：padding-top:5px*/
+.news_login_right ul{padding:20px 20px ;padding-top:10px;}
+.news_login_right ul h1{ font-size:16px; height:32px}
+.news_login_right ul li{ margin:10px 0;}
+.news_login_right ul li input{ height:30px; padding-left:10px; line-height:30px; vertical-align:middle}
+/*修改部分：ul li input.wbcd{ width:240px;*/
+.news_login_right ul li input.wbcd{ width:230px;}
+.input_login{box-shadow:0 0 5px #dfdfdf inset;border:solid 1px #dfdfdf; font-size:14px; color:#333;}
+.input_login:hover{box-shadow:0 1px 5px #0099FF;border:solid 1px #0099FF; font-size:14px; color:#333;}
+.input_login:focus{box-shadow:0 1px 5px #0099FF;border:solid 1px #0099FF; font-size:14px; color:#333;}
+.input_login:focus_red{box-shadow:0 1px 5px #FEF5F5;border:solid 1px #D5070E; font-size:14px; color:#333;background:#FEF5F5}
+.news_login_right ul li a.dlan{ display:block; cursor:pointer;width:120px; height:37px; background:url(../Images/login_dl_1.png) no-repeat;}
+.news_login_right ul li a:hover.dlan{ display:block; width:120px; height:37px; background:url(../Images/login_dl_2.png) no-repeat;}
+.news_Registration{border-top:#ba3400 solid 3px; overflow:hidden}
+.news_Registration_right{ width:230px; float:right; margin-top:30px}
+.news_Registration_right ul{ margin:20px;}
+.news_Registration_right ul li{ margin-bottom:10px; margin-top:10px; line-height:25px;}
+.news_Registration_left{ width:700px; float:left; padding:20px; border-right:solid #dfdfdf 1px; margin-top:10px}
+/*注册信息完善*/
+.reg_maturity{ width:938px; float:left; padding:20px; margin-top:10px}
+.reg_maturity .title{ width:820px; border:solid #FBBD90 1px; margin:10px auto; height:24px; line-height:24px; text-indent:8px; background:#FFFCE6}
+.reg_maturity .content{ margin:0 auto; overflow:hidden; padding-left:200px}
+/*注册信息完善end*/
+.txnr{ padding-top:20px; padding-left:120px;overflow:hidden;}
+.txnr li{ margin-bottom:15px; margin-top:15px;overflow:hidden;}
+.txnr li input,select,option{ height:30px; line-height:30px;}
+.txnr li input.wbk{width:200px; float:left;}
+.zcan{cursor:pointer;width:184px; height:30px; background:url(tpl/slwka/Images/tyzc_1.png) no-repeat; margin-left:100px; display:block; border:none;}
+.zcan:hover{background:url(tpl/slwka/Images/tyzc_2.png) no-repeat;}
+.zcan_gray{width:184px; height:30px; background:url(tpl/slwka/Images/tyzc_gray.png) no-repeat; margin-left:100px; display:block; border:none;}
+.txnr li span{ display:block; width:100px;text-align:right; float:left; line-height:25px;}
+.txnr li p.zq{ width:50px; height:18px;display:inline-table; text-align:left; background: url(tpl/slwka/Images/dh.png) no-repeat 5px center; padding-bottom:2px; padding-top:2px; margin-left:5px; *display:inline;zoom:1;}
+.txnr li p.cw{ width:250px; height:18px;display:inline-table; text-align:left; text-indent:23px; background: url(tpl/slwka/Images/sell/ch.png) no-repeat 5px center; padding-bottom:2px; padding-top:2px; margin-left:5px; *display:inline;zoom:1;}
+.txnr li p.default{ line-height: 25px; display:inline; text-indent:5px; text-align:left; margin-left:5px;}
+.txnr li span.bnwk{ float:left; width:200px; display:block; text-align:left; background: url(tpl/slwka/Images/sell/ch.png) no-repeat 5px center #ffeaea;border:#ffabab solid 1px; text-indent:23px; padding-bottom:1px; padding-top:1px; margin-left:5px; color:#ffabab}
+.txnr li span.xxyz{ float:left; width:200px; display:block; text-align:left; background: url(tpl/slwka/Images/sell/dh.png) no-repeat 5px center #f0ffe6;border:#8cd85a solid 1px; text-indent:23px; padding-bottom:1px; padding-top:1px; margin-left:5px; color:#8cd85a}
+.txnr li input.zc_fsyzm{cursor:pointer;background: url(tpl/slwka/Images/zcfsyzm.png) no-repeat scroll 0 0 transparent;border: medium none;cursor: pointer;height: 27px;width: 124px;}
+
+
+.dlLogin{width:96px; height:30px; vertical-align:middle; background:url(tpl/slwka/Images/dl.png) no-repeat;border: medium none;cursor: pointer;}
+.dlLogin:hover{width:96px; height:30px; background:url(tpl/slwka/Images/dl1.png) no-repeat;border: medium none;cursor: pointer;}
+
+.xyb_button{ width:171px; height:51px; vertical-align:middle; background:url(tpl/slwka/Images/zhmm_xyb.png) no-repeat;border: medium none;cursor: pointer; }
+.xyb_button:hover{ width:171px; height:51px; vertical-align:middle; background:url(tpl/slwka/Images/zhmm_xyb1.png) no-repeat;border: medium none;cursor: pointer; }
+
+.tj_button{ width:171px; height:51px; vertical-align:middle; background:url(tpl/slwka/Images/zhmm_tj.png) no-repeat;border: medium none;cursor: pointer; }
+.tj_button:hover{ width:171px; height:51px; vertical-align:middle; background:url(tpl/slwka/Images/zhmm_tj1.png) no-repeat;border: medium none;cursor: pointer; }
+
+
+/*找回支付密码*/ 
+.getpaypassword_index{width:958px;float:left; line-height:35px; height:35px; padding-left:20px; font-size:14px; padding-top:20px;}
+.getpaypassword{ width:978px; border:solid #dfdfdf 1px; height:260px; float:left;}
+.getpaypassword_1{ width:958px; border-bottom:solid #dfdfdf 1px; height:30px; padding-left:20px; font-size:14px; line-height:30px; background-color:#F7F7F7;}
+.getpaypassword_3{ float:left; width:935px; border:solid #EEE0B3 1px; height:30px; background-color:#FFFCE9;padding-left:20px; line-height:30px; vertical-align:middle; margin:10px; display:inline;}
+.getpaypassword_2{padding:40px 20px 20px 264px; float:left;}
+.getpaypassword_2 ul{ float:left; width:560px;}
+.getpaypassword_2 ul li{ float:left; padding-right:4px; margin-bottom:24px;height:20px; line-height:20px;}
+.getpaypassword_2 ul li p{margin-left:56px;}
+.getpaypassword_2 ul li select{ height:20px;}
+.getpaypassword_2 ul li span{margin-left:92px;}
+.getpaypassword_an{ width:85px; height:28px; line-height:28px;background: url(tpl/slwka/Images/tj.png) no-repeat; border:none;display:block; text-align:center; color:#fff; cursor:pointer; font-weight:bold; font-size:14px;}
+.getpaypassword_an:hover{ background: url(tpl/slwka/Images/tj_1.png) no-repeat; border:none;color:#fff;}
+.getpaypassword input.srk{ width:172px; height:20px; border:solid 1px #cccccc; float:left;  background-color:#FFFFFF;}
+.getpswd_fsyzm{cursor:pointer;background: url(tpl/slwka/Images/zcfsyzm.png) no-repeat scroll 0 0 transparent;border: medium none;cursor: pointer;height: 27px;width: 124px; display:block; line-height:27px; text-align:center;}

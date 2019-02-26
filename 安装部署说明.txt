@@ -1,0 +1,46 @@
+PHP环境： php 5.X
+MySQL环境 :mysql 5.6
+
+服务器需开启伪静态
+
+后台默认账号密码：
+账号：admin
+密码：admin123
+
+配置说明：
+数据恢复文件目录   \a8tgconfig\180626145246.sql   或者通过客户端直接还原Back.psc
+
+数据库配置文件 ： \a8tgconfig\config.php  修改相关数据库IP，账号，密码
+
+
+支付接口相关设置：
+
+微信接口：
+登陆后台-> 通道管理-》接入信息-》设置微信公众支付 ，填写邮箱账号及接入ID
+登陆后台-> 系统设置（右上角）-》微信设置  填入相关信息
+源码修改：
+目录： \pay\qqcode_bank\lib\WxPay.Config.php  修改相关配置
+	\pay\qqcode_ban\send_qqcode.php  修改回调URL及相关配置
+目录: \pay\weixin_bank\lib\WxPay.Config.php 修改相关配置
+
+支付宝接口
+登陆后台-> 通道管理-》接入信息-》 支付宝接口 填写相关设置
+登陆后台-> 通道管理-》接入信息-》 手机支付宝接口 填写相关设置
+源码修改：
+目录: \pay\alipay_bank\alipay.config.php  修改回调URL
+目录: \pay\altwap_bank\alipay.config.php  修改回调URL 及相关参数
+      \pay\altwap_bank\send_qqcode.php  修改回调URL 及相关参数
+
+QQ钱包接口：
+源码修改：
+目录: \pay\qqpay_bank\qpayMch.config.php  修改相关参数
+       \pay\qqpay_bank\send_qqpay.php  修改回调URL及相关参数
+
+如需接入其他第三方接口请自行修改或联系客服有偿协助接入。
+
+
+邮箱设置:
+登陆后台-> 系统设置（右上角）-》邮件服务  填入相关信息
+
+注意：
+必须配置：cache目录需赋予目录可读写权限。

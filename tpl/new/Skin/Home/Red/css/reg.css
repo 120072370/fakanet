@@ -1,0 +1,84 @@
+.rep_ctop {width:100%;height:25px;border-bottom:1px solid #e6e5e5;float:left;margin-left:0px;display:inline;padding-top:25px;}
+.rep_cbot {width:100%;min-height:550px;_height:550px;float:left;font-size:14px; line-height:1.5;color:#666;overflow:auto;}
+.rep_ctop span strong {float:left;font-size:14px;color:#464646;margin:0px 0 0 20px}
+
+.rep_tab_0 {float:right;width:273px;height:25px;color:#666666;font-size:14px;line-height:24px;_line-height:25px;font-weight:bold}
+.spw01_0 {width:140px;text-align:center;float:left}
+.spw02_0 {width:123px;text-align:center;float:left}
+.rep_tab1_0{background:url(../images/rep_tab.jpg) no-repeat;}
+.rep_tab2_0 {background:url(..images/rep_tab1.jpg) no-repeat;}
+.rep_tab1_0 .spw01_0 {color:#fff;float:left;width:137px;}
+.rep_tab2{background:url(../images/rep_tab1.jpg) no-repeat;}
+.rep_tab2_0 .spw01_0 {color:#b26e3d;float:left;}
+.rep_tab2_0 .spw02_0 {color:#fff;float:left;}
+.rep_step1 {color:#999;margin:15px 0 0 80px;}
+.rep_step1 strong {color:#666;}
+/*空出位置126*/
+.rep_stepc {margin:0px 0 0 20px;padding-bottom:20px;}
+
+
+
+
+
+
+.input_login{box-shadow:0 0 5px #dfdfdf inset;border:solid 1px #dfdfdf; font-size:14px; color:#333;}
+
+
+
+
+.rep_step1 span,.rep_cbot label span {color:#ff5a00; font-family:"simsun"}
+.rep_cbot input {width:233px;height:28px;padding-left:5px;color:#666;font-size:14px;line-height:28px;vertical-align:middle}
+.rep_cbot input.error, /* By angki 2011/10/17 */
+.rep_cbot input.error_w2, /* By yanli 2011/11/02 */
+.rep_cbot input.m_fault, /* By Angki 2011/10/24 */
+.rep_cbot input.rep_bred {border:1px solid #cc0000}
+.rep_cbot label {width:127px;height:28px;text-align:right;padding-right:5px;line-height:28px;display:inline-block}/****************************/
+
+
+
+.rep_cbot p {margin-top:15px;line-height:28px;clear:both;position:relative;
+    top: 0px;
+    left: 0px;
+}
+.rep_cbot p.rep_mt {margin-top:7px; margin-left:0px; position:relative;}
+.rep_cbot p.mg { padding-left:132px; } /* By angki 2011/11/29 */
+.rep_cbot p span.rep_tg {background:url(../images/rep_tg.jpg) no-repeat;width:16px;height:16px;display:inline-block;position:absolute;left:390px;top:5px;}
+.rep_cbot .rep_fd {float:left;font-size:12px;}
+.rep_cbot .rep_fd a,.rep_codetxt a  {color:#2864b4}
+.rep_cbot .rep_ty {border:none;background:none;width:14px;height:14px;margin:2px 5px 0 132px;display:inline-block;}
+.rep_cbot .rep_tytxt {font-size:12px;_padding-bottom:3px;display:inline-block;}
+.rep_cbot .rep_tytxt {margin-left:132px;} /* By yanli 2011.11.14 */
+.rep_cbot .rep_tytxt a{color:#666;font-size:12px;color:#2864b4;}
+.rep_cbot .rep_c9 {color:#999}
+.rep_cbot .rep_w130 {width:130px;}
+.rep_codetxt {font-size:12px;display:inline-block;margin:6px 0 0 20px;*padding-left:20px;}
+
+.rep_cbot input.rep_button ,.rep_cbot a.rep_button{ display:block; width:184px; cursor:pointer; background:url(../images/tyzc_1.jpg) no-repeat;}
+.rep_cbot input.rep_button ,.rep_cbot a:hover.rep_button{ display:block;  background:url(../images/tyzc_1.jpg) no-repeat;height: 40px;}
+
+/*.rep_cbot input.rep_button , .rep_cbot a.rep_button {width:89px;height:24px;_height:27px;background:url(images/rep_queren.jpg) no-repeat;padding-bottom:4px;line-height:24px\9;text-align:center;border:none;color:#fff;font-weight:700;padding-left:0;display:block;cursor:pointer;}  /* By yanli 2012.1.17  */
+/*.rep_cbot a.rep_button { text-decoration:none; height:23px; line-height:23px;}  /*By yanli 2012.1.17  */
+.rep_pad {padding-left:132px;}
+.rep_gray {display:inline-block;width:163px;height:12px;margin-left:15px;margin-top:-5px;position:absolute;left:380px;top:7px;font-size:12px;}
+.rep_orange_ruo {display:inline-block;width:163px;height:12px;background:url(images/code_di.jpg) no-repeat;position:absolute;left:0;top:0;}
+.rep_orange_zhong {display:inline-block;width:163px;height:12px;background:url(images/code_zh.jpg) center 0 no-repeat;position:absolute;left:0;top:0;}
+.rep_orange_qiang {display:inline-block;width:163px;height:12px;background:url(images/code_gao.jpg) right 0 no-repeat;position:absolute;left:0;top:0;}
+.rep_linetxt {position:absolute;left:0;top:5px;letter-spacing:3px;}
+span.error, /* By Angki 2011/10/17 */
+.rep_fault {width:250px;height:30px;background:url(../images/rep_fault.jpg) no-repeat;display:inline-block;margin-left:15px;padding-left:32px;font-size:12px;line-height:30px;color:#ef4242;position:absolute;left:370px;top:0px;}
+.rep_warn {background:url(images/rep_warn.jpg) no-repeat;}
+
+.rep_tshi {width:250px;position:absolute;left:390px;top:-8px;font-size:12px;line-height:1.5;color:#999;display:inline-block;padding:5px;padding-left:15px;background:url(../images/rep_dot1.jpg) no-repeat 8px 12px;}
+.rep_tshi_on {background:url(../images/rep_dot.jpg) no-repeat 8px 12px #fbfff0;border:1px solid #f6e5ad;color:#666666;top:-8px;}
+.rep_tshi_line {width:250px;position:absolute;left:390px;top:0px;_top:1px;font-size:12px;color:#999;display:inline-block;height:28px;padding-left:15px;background:url(../images/rep_dot1.jpg) no-repeat 8px 12px;}
+.rep_tshi_line1 {width:250px;position:absolute;left:390px;top:5px;font-size:12px;color:#999;display:inline-block;height:28px;padding-left:15px;background:url(../images/rep_dot1.jpg) no-repeat 8px 12px;}
+.rep_tshi_lineon {background:url(../images/rep_dot.jpg) no-repeat 8px 12px #fbfff0;border:1px solid #f6e5ad;color:#666666;}
+.rep_tshi_on .rep_trits{position:absolute;left:-6px;top:7px;background:url(../images/rep_tri.jpg) no-repeat 0 50%;display:inline-block;height:30px;width:6px;z-index:999}
+.rep_tshi_line .rep_trits{position:absolute;left:-6px;top:0px;background:url(../images/rep_tri.jpg) no-repeat 0 50%;display:inline-block;height:30px;width:6px;z-index:999}
+.rep_tshi_line1 .rep_trits{position:absolute;left:-6px;top:0px;background:url(../images/rep_tri.jpg) no-repeat 0 50%;display:inline-block;height:30px;width:6px;z-index:999}
+.rep_tgc {width:590px;line-height:24px;text-align:left;padding:20px;border:1px solid #F6E5AD;margin-top:40px;background:url(../images/rep_tgbg.jpg) 25px 30px no-repeat #fbfff0;padding-left:130px;}
+.rep_tgc span {color:#FF6600}
+.rep_tgc strong {color:#cc0000}
+.rep_tiaozhuan {width:220px;text-align:left;background:url(../images/loding.gif) 0 50% no-repeat;display:inline-block;padding-left:25px;margin-left:260px;}
+.rep_tgp1 {padding-left:320px;}
+.rep_cbot input.rep_tgbg {width:195px;height:54px;background:url(../images/user_btn.jpg) no-repeat;padding-bottom:4px;line-height:24px\9;text-align:center;border:none;color:#fff;font-weight:700;padding-left:0;cursor:pointer;margin-left:50px;}

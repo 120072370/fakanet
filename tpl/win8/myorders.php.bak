@@ -1,0 +1,66 @@
+<?php if(!defined('WY_ROOT')) exit; ?>
+<!--/header end-->
+
+<style>
+.st{height:35px;border:1px solid #d5d5d5; font-family:Geneva, Arial, Helvetica, sans-serif}
+</style>
+<div class="clear"></div>
+  <div class="w-980">
+  <div class="banner1"></div>
+    <div class="bigbox b_m_t">
+	  <div class="bigbox-t">
+	    <div class="titbn"><h4>订单查询</h4></div>
+	  </div>
+	  <div class="clear"></div>
+	  <div class="bigbox-c">
+    <form name="s" method="get" onsubmit="return checkForm()" action="orderquery.htm">
+			<table style="margin:auto">
+			<tr>
+			<td>
+			<select name="st">
+			<option value="orderid">订单号</option>
+			<option value="contact">联系方式</option>
+			<option value="cardnum">充值卡号</option>
+			</select>
+			</td>
+			<td style="padding-left:10px">
+			<input type="text" name="kw" class="search_input" maxlength="50" size="17" value="" />
+			</td>
+			<td valign="middle" style="padding-left:10px;padding-top:25px">
+			<div style="height:59px;line-height:80px"><img style="cursor:pointer" onclick="if($('[name=kw]').val()){s.submit();}else{$('[name=kw]').focus();alert('请填写查询内容！');}" src="/tpl/white/common/images/search_button.gif" /></div>
+			</td>
+			</tr>
+			</table>
+			</form>
+			</div>
+	</div><!--/bigbox end-->
+				
+   <div class="b_m_t bigbox">
+	  <div class="bigbox-t">
+	    <div class="titbn"><h4>最近交易订单</h4> <span style="padding-top:8px; display:inline-block"> &nbsp;(注：仅保留最近50笔本机订单交易记录，产生了支付金额的订单为已付款订单!)</span></div>
+	  </div>
+	  <div class="clear"></div>
+	  <div class="bigbox-c">
+
+		<table class="tabledata" cellpadding="0" cellspacing="0" border="1" align="center">
+		 <thead>
+		   <tr>
+		     <td>提交时间</td>
+		     <td>网站订单号</td>
+		     <td>支付类型</td>
+		     <td>订单金额</td>
+			 <td>付款金额</td>		 
+			 <td>订单状态</td>
+		   </tr>
+		 </thead>
+
+		 <tbody>
+									<tr><td colspan="6" align="center" style="color:#003300;;height:140px;line-height:140px">提示：没有找到订单</td></tr>
+				
+        </tbody>
+		</table>
+
+	  </div>
+	</div><!--/bigbox end-->
+</div><!--/content end-->
+<div class="clear"></div>
